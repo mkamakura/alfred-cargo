@@ -1,0 +1,17 @@
+{
+  "name": "alfred-cargo",
+  "description": "Alfred 3 workflow to search for cargo packages",
+  "version": "1.0.0",
+  "author": "Masaya Kamakura <kamakura.masaya@gmail.com> (https://github.com/mkamakura)",
+  "homepage": "https://github.com/mkamakura/globar#readme",
+  "keywords": [
+    "alfred",
+    "cargo"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "got": "6.3.0"
+  },
+  "main": "index.js",
+  "devDependencies": {}
+}
