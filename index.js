@@ -14,7 +14,7 @@ got('https://crates.io/api/v1/crates', {
     const items = res.body.crates.filter(x => x.name.length > 1)
         .map(module => {
           return {
-            title: module.name,
+            title: `${module.name} ${module.max_version} (${module.downloads})`,
             subtitle: module.description,
             arg: `https://crates.io/crates/${module.name}`,
             mods: {

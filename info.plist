@@ -121,6 +121,6 @@ fi</string>
 		</dict>
 	</dict>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://github.com/mkamakura/alfred-cargo</string>
 </dict>
 </plist>
